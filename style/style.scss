@@ -19,6 +19,8 @@ body{
         content: '';
         height: 70px;
         width: 70px;
+        background-color: $secondary-color;
+        border-radius: 50%;
         background-image: url('/media/icons/chevron.png');
         background-size: 40px 40px;
         // background-size: auto;
@@ -26,6 +28,10 @@ body{
         padding: 0;
         background-position: 16px 18px;
         background-repeat: no-repeat;
+    }
+    .calendly-badge-content:hover{
+        transition-duration: 1.3s;
+        background-color: $main-color;
     }
 }
 ::-webkit-scrollbar-track
@@ -63,6 +69,7 @@ header{
     }
     a:hover{
         color: $secondary-color;
+        transition-duration: 0.8s;
     }
 }
 .cover-section{
@@ -106,22 +113,23 @@ header{
         bottom: 120px;
     }
 }
+.section-name{
+    text-transform: uppercase;
+
+    h3{
+        color: $secondary-color;
+        font-size: 30px;
+        font-family: $main-font;
+    }
+    h2{
+        color: $heading-color;
+        font-size: 40px;
+        font-family: $secondary-font;
+    }
+}
 .section2{
     margin-top: 110px;
-    .section-name{
-        text-transform: uppercase;
 
-        h3{
-            color: $secondary-color;
-            font-size: 30px;
-            font-family: $main-font;
-        }
-        h2{
-            color: $heading-color;
-            font-size: 40px;
-            font-family: $secondary-font;
-        }
-    }
     .services-container{
         margin-top: 140px;
         .svc{
@@ -147,6 +155,106 @@ header{
                     line-height: 120%;
                 }
             }
+        }
+    }
+}
+.section3{
+    margin-top: 20px;
+    margin-bottom: 110px;
+    .card-section{
+        margin-top: 140px;
+        .info-block{
+            box-shadow: $main-shadow;
+            border-radius: 50px;
+            padding: 70px 20px;
+        }
+        h2{
+            margin-top: 50px;
+            color: white;
+            font-family: $secondary-font;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        p{
+            font-family: $secondary-font;
+            font-size: 25px;
+            color: $text-color;
+            line-height: 120%;
+            text-align: center;
+        } 
+        .text{
+            margin-top: auto;
+        }
+    }
+}
+.contact-button{
+    a{
+        padding: 28px 55px;
+        font-size: 30px;
+        font-family: $secondary-font;
+        background-color: $secondary-color;
+        box-shadow: $main-shadow;
+        border-radius: 50px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    a:hover{
+        transition-duration: 1.3s;
+        background-color: $main-color;
+    }
+}
+footer{
+    margin-top: 110px;
+    padding: 60px 0;
+    box-shadow: $main-shadow;
+    .logo-section{
+        p{
+            font-size: 20px;
+            color: white;
+            text-transform: uppercase;
+            font-family: $main-font;
+            margin-top: 20px;
+        }
+    }
+    .adress-section{
+        font-size: 20px;
+        color: white;
+        font-family: $main-font;
+        border-right: 1px solid white;
+
+    }
+    .footer-menu{
+        padding-left: 50px;
+        border-right: 1px solid white;
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-family: $main-font;
+            color: white;
+            margin: 5px 0;
+        }
+        a:hover{
+            color: $secondary-color;
+            transition-duration: 0.8s;
+        }
+    }
+    .icon-section{
+        padding-left: 70px;
+        h2{
+            color: white;
+            font-family: $secondary-font;
+            text-transform: uppercase;
+            padding-left: 20px;
+            font-size: 20px;
+        }
+        .icon{
+            margin: 0 12px;
+             
         }
     }
 }

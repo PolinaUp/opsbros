@@ -13,6 +13,8 @@ body {
   content: '';
   height: 70px;
   width: 70px;
+  background-color: #7424FF;
+  border-radius: 50%;
   background-image: url("/media/icons/chevron.png");
   background-size: 40px 40px;
   -webkit-box-shadow: none;
@@ -20,6 +22,12 @@ body {
   padding: 0;
   background-position: 16px 18px;
   background-repeat: no-repeat;
+}
+
+.calendly-badge-widget .calendly-badge-content:hover {
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
+  background-color: #121213;
 }
 
 ::-webkit-scrollbar-track {
@@ -56,6 +64,8 @@ header a {
 
 header a:hover {
   color: #7424FF;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
 }
 
 .cover-section {
@@ -119,24 +129,24 @@ header a:hover {
   bottom: 120px;
 }
 
-.section2 {
-  margin-top: 110px;
-}
-
-.section2 .section-name {
+.section-name {
   text-transform: uppercase;
 }
 
-.section2 .section-name h3 {
+.section-name h3 {
   color: #7424FF;
   font-size: 30px;
   font-family: "Ruda", sans-serif;
 }
 
-.section2 .section-name h2 {
+.section-name h2 {
   color: #FFFFFF;
   font-size: 40px;
   font-family: "Sansation", "serif";
+}
+
+.section2 {
+  margin-top: 110px;
 }
 
 .section2 .services-container {
@@ -167,5 +177,121 @@ header a:hover {
   font-size: 25px;
   color: #D4D4D4;
   line-height: 120%;
+}
+
+.section3 {
+  margin-top: 20px;
+  margin-bottom: 110px;
+}
+
+.section3 .card-section {
+  margin-top: 140px;
+}
+
+.section3 .card-section .info-block {
+  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
+          box-shadow: 0px 0px 20px 0px #7424FF;
+  border-radius: 50px;
+  padding: 70px 20px;
+}
+
+.section3 .card-section h2 {
+  margin-top: 50px;
+  color: white;
+  font-family: "Sansation", "serif";
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.section3 .card-section p {
+  font-family: "Sansation", "serif";
+  font-size: 25px;
+  color: #D4D4D4;
+  line-height: 120%;
+  text-align: center;
+}
+
+.section3 .card-section .text {
+  margin-top: auto;
+}
+
+.contact-button a {
+  padding: 28px 55px;
+  font-size: 30px;
+  font-family: "Sansation", "serif";
+  background-color: #7424FF;
+  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
+          box-shadow: 0px 0px 20px 0px #7424FF;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact-button a:hover {
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
+  background-color: #121213;
+}
+
+footer {
+  margin-top: 110px;
+  padding: 60px 0;
+  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
+          box-shadow: 0px 0px 20px 0px #7424FF;
+}
+
+footer .logo-section p {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Ruda", sans-serif;
+  margin-top: 20px;
+}
+
+footer .adress-section {
+  font-size: 20px;
+  color: white;
+  font-family: "Ruda", sans-serif;
+  border-right: 1px solid white;
+}
+
+footer .footer-menu {
+  padding-left: 50px;
+  border-right: 1px solid white;
+}
+
+footer .footer-menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Ruda", sans-serif;
+  color: white;
+  margin: 5px 0;
+}
+
+footer .footer-menu a:hover {
+  color: #7424FF;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+footer .icon-section {
+  padding-left: 70px;
+}
+
+footer .icon-section h2 {
+  color: white;
+  font-family: "Sansation", "serif";
+  text-transform: uppercase;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+footer .icon-section .icon {
+  margin: 0 12px;
 }
 /*# sourceMappingURL=style.css.map */
