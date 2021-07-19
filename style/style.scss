@@ -6,9 +6,43 @@ $secondary-color: #7424FF;
 $main-font: 'Ruda', sans-serif ;
 $secondary-font: 'Sansation', 'serif';
 $main-shadow: 0px 0px 20px 0px #7424FF;
+
 body{
     background-color: $main-color;
 }
+
+.calendly-badge-widget{
+    box-shadow: $main-shadow;
+    border-radius: 50px;
+    background-color: $main-color;
+    .calendly-badge-content{
+        content: '';
+        height: 70px;
+        width: 70px;
+        background-image: url('/media/icons/chevron.svg');
+        background-size: 40px 40px;
+        // background-size: auto;
+        box-shadow: none;
+        padding: 0;
+        background-position: 16px 18px;
+        background-repeat: no-repeat;
+    }
+}
+::-webkit-scrollbar-track
+{
+	background-color: $main-color;
+}
+
+::-webkit-scrollbar
+{
+	width: 7px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color:$secondary-color;
+}
+
 header{
 
     background-color: $main-color;
@@ -32,7 +66,8 @@ header{
     }
 }
 .cover-section{
-    position: absolute;
+    position: relative;
+    height: 100vh;
     top: 0;
     bottom: 0;
     right: 0;
@@ -65,5 +100,53 @@ header{
         bottom: 100px;
         width: 50px;
         height: 50px;
+    }
+    .chevron:hover{
+        transition-duration: 1.2s;
+        bottom: 120px;
+    }
+}
+.section2{
+    margin-top: 110px;
+    .section-name{
+        text-transform: uppercase;
+
+        h3{
+            color: $secondary-color;
+            font-size: 30px;
+            font-family: $main-font;
+        }
+        h2{
+            color: $heading-color;
+            font-size: 40px;
+            font-family: $secondary-font;
+        }
+    }
+    .services-container{
+        margin-top: 140px;
+        .svc{
+            margin-bottom: 90px;
+            .svc-num{
+                font-family: $secondary-font;
+                color: $dark-grey;
+                font-size: 100px;
+            }
+            .svc-text{
+                h2{
+                    color: white;
+                    font-family: $main-font;
+                    font-size: 30px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    margin-bottom: 40px;
+                }
+                p{
+                    font-family: $secondary-font;
+                    font-size: 25px;
+                    color: $text-color;
+                    line-height: 120%;
+                }
+            }
+        }
     }
 }
