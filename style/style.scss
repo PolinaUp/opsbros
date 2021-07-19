@@ -19,7 +19,7 @@ body{
         content: '';
         height: 70px;
         width: 70px;
-        background-image: url('/media/icons/chevron.svg');
+        background-image: url('/media/icons/chevron.png');
         background-size: 40px 40px;
         // background-size: auto;
         box-shadow: none;
@@ -72,7 +72,7 @@ header{
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url(/media/cover1.svg);
+    background-image: url(/media/cover1.png);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,7 +93,7 @@ header{
         }
     }
     .chevron{
-        background-image: url('/media/icons/chevron.svg');
+        background-image: url('/media/icons/chevron.png');
         background-repeat: no-repeat;
         background-size: contain;
         position: absolute;
