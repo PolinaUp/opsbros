@@ -13,7 +13,7 @@ body {
   content: '';
   height: 70px;
   width: 70px;
-  background-image: url("/media/icons/chevron.svg");
+  background-image: url("/media/icons/chevron.png");
   background-size: 40px 40px;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -65,7 +65,7 @@ header a:hover {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url(/media/cover1.svg);
+  background-image: url(/media/cover1.png);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,7 +104,7 @@ header a:hover {
 }
 
 .cover-section .chevron {
-  background-image: url("/media/icons/chevron.svg");
+  background-image: url("/media/icons/chevron.png");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
