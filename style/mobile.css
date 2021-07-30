@@ -1,0 +1,196 @@
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  .contact-btn-container .contact-btn-content {
+    height: 50px;
+    width: 50px;
+    background-size: 25px 25px;
+    background-position: 13px 13px;
+  }
+  .calendly-badge-widget .calendly-badge-content {
+    height: 50px;
+    width: 50px;
+    background-size: 25px 25px;
+    background-position: 13px 13px;
+  }
+  .mobile-display-none {
+    display: none !important;
+  }
+  .show-mobile {
+    display: block !important;
+  }
+  .contact-form {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .mobile-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    top: 108px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #121213;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+  }
+  .mobile-menu a {
+    font-size: 20px;
+    padding: 12px 50px;
+  }
+  header .logo-box {
+    margin-left: 0 !important;
+  }
+  header .logo-box .logo {
+    width: 50px;
+  }
+  .open-menu-mobile label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 40px;
+    cursor: pointer;
+  }
+  .open-menu-mobile label span {
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 3px;
+    margin: 5px 0;
+    -webkit-transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  }
+  .open-menu-mobile span:nth-of-type(1) {
+    width: 50%;
+  }
+  .open-menu-mobile span:nth-of-type(2) {
+    width: 100%;
+  }
+  .open-menu-mobile span:nth-of-type(3) {
+    width: 75%;
+  }
+  .open-menu-mobile .opened ~ span:nth-of-type(1) {
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    -webkit-transform: rotatez(45deg) translate(5px, 0px);
+            transform: rotatez(45deg) translate(5px, 0px);
+  }
+  .open-menu-mobile .opened ~ span:nth-of-type(2) {
+    -webkit-transform-origin: top;
+            transform-origin: top;
+    -webkit-transform: rotatez(-45deg);
+            transform: rotatez(-45deg);
+  }
+  .open-menu-mobile .opened ~ span:nth-of-type(3) {
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+    width: 50%;
+    -webkit-transform: translate(19px, -7px) rotatez(45deg);
+            transform: translate(19px, -7px) rotatez(45deg);
+  }
+  .section-name h3 {
+    font-size: 1rem;
+  }
+  .section-name h2 {
+    font-size: 20px;
+  }
+  .contact-button a {
+    font-size: 1rem;
+    padding: 15px 25px;
+  }
+  .cover-section .text-box h1 {
+    font-size: 40px;
+  }
+  .cover-section .text-box p {
+    font-size: 20px;
+  }
+  .cover-section .chevron {
+    width: 30px;
+    height: 30px;
+  }
+  .section2 {
+    margin-top: 50px;
+  }
+  .section2 .services-container {
+    margin-top: 50px;
+  }
+  .section2 .services-container .svc {
+    padding: 0 70px;
+    margin-bottom: 50px;
+  }
+  .section2 .services-container .svc .svc-num {
+    font-size: 50px;
+  }
+  .section2 .services-container .svc .svc-text h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .section2 .services-container .svc .svc-text p {
+    font-size: 1rem;
+  }
+  .section3 {
+    margin: 0;
+  }
+  .section3 .card-section {
+    margin: 25px 70px;
+  }
+  .section3 .card-section .info-block {
+    margin: 25px 0;
+    padding: 50px 20px;
+  }
+  .section3 .card-section .info-block img {
+    width: 50px;
+  }
+  .section3 .card-section .info-block .text h2 {
+    font-size: 20px;
+  }
+  .section3 .card-section .info-block .text p {
+    font-size: 1rem;
+  }
+  footer {
+    margin-top: 50px;
+  }
+  footer .logo-section p {
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: "Ruda", sans-serif;
+    padding: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 0;
+  }
+  footer .adress-section {
+    border: none;
+  }
+  footer .adress-section p {
+    font-size: 1rem;
+    padding: 40px;
+    border-bottom: 1px solid #FFFFFF;
+    text-align: center;
+  }
+  footer .icon-section {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
+  }
+  footer .icon-section h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

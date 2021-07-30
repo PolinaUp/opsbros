@@ -10,7 +10,18 @@ $main-shadow: 0px 0px 20px 0px #7424FF;
 body{
     background-color: $main-color;
 }
-
+.close-menu{
+    display: none;
+}
+.open-menu{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+.display-none{
+    display: none !important;
+}
 .active-contact-btn{
     background-color: $main-color !important;
     background-image: url('/media/icons/cross.svg') !important;
@@ -262,7 +273,6 @@ footer{
         color: $heading-color;
         font-family: $main-font;
         border-right: 1px solid $heading-color;
-
     }
     .footer-menu{
         padding-left: 50px;
@@ -282,6 +292,7 @@ footer{
     }
     .icon-section{
         padding-left: 70px;
+        align-items: flex-start;
         h2{
             color: $heading-color;
             font-family: $secondary-font;

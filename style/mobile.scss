@@ -1,0 +1,220 @@
+$main-color: #121213 ;
+$heading-color: #FFFFFF;
+$text-color: #D4D4D4;
+$dark-grey: #484848;
+$secondary-color: #7424FF;
+$main-font: 'Ruda', sans-serif ;
+$secondary-font: 'Sansation', 'serif';
+$main-shadow: 0px 0px 20px 0px #7424FF;
+
+@media screen and (min-width: 320px) and (max-width: 1200px){
+    .contact-btn-container{
+        .contact-btn-content{
+            height: 50px;
+            width: 50px;
+            background-size: 25px 25px;
+            background-position: 13px 13px; 
+
+        }
+    }
+    .calendly-badge-widget{
+        .calendly-badge-content{
+            height: 50px;
+            width: 50px;
+            background-size: 25px 25px;
+            background-position: 13px 13px; 
+        }
+    }
+    .mobile-display-none{
+        display: none !important;
+    }
+    .show-mobile{
+        display: block !important;
+    }
+    .contact-form{
+        align-items: center !important;
+    }
+    .mobile-menu{
+        display: flex;
+        position: fixed;
+        top: 108px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        background-color: $main-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition-duration: 2s;
+        a{
+            font-size: 20px; 
+            padding: 12px 50px;
+        }
+    }
+    header{
+        .logo-box{
+            margin-left: 0 !important;
+            .logo{
+                width: 50px;
+            }
+        }
+    }
+    .open-menu-mobile{
+        label{
+            display:flex;
+             flex-direction:column;
+             width:40px;
+             cursor:pointer;
+           }
+           
+           label span{
+             background: $heading-color;
+             border-radius:10px;
+             height:3px;
+             margin: 5px 0;
+             transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+           
+           }
+           
+           span:nth-of-type(1){
+             width:50%;
+             
+           }
+           
+           span:nth-of-type(2){
+             width:100%;
+           }
+           
+           
+           span:nth-of-type(3){
+             width:75%;
+            
+           }
+           
+           .opened ~ span:nth-of-type(1){
+             transform-origin:bottom;
+             transform:rotatez(45deg) translate(5px,0px)
+           }
+           
+           
+           .opened ~ span:nth-of-type(2){
+             
+             transform-origin:top;
+             transform:rotatez(-45deg)
+           }
+           
+           
+           .opened ~ span:nth-of-type(3){
+             
+             transform-origin:bottom;
+             width:50%;
+             transform: translate(19px,-7px) rotatez(45deg);
+           
+           }
+           
+    }
+    .section-name{
+        h3{
+            font-size: 1rem;
+        }
+        h2{
+            font-size: 20px;
+        }
+    }
+    .contact-button{
+        a{
+            font-size: 1rem;
+            padding: 15px 25px;
+        }
+    }
+    .cover-section{
+        .text-box{
+            h1{
+                font-size: 40px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .chevron{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .section2{
+        margin-top: 50px;
+        .services-container{
+            margin-top: 50px;
+            .svc{
+                padding: 0 70px;
+                margin-bottom: 50px;
+                .svc-num{
+                    font-size: 50px;
+                }
+                .svc-text{
+                    h2{
+                        font-size: 20px;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    .section3 {
+        margin: 0;
+        .card-section{
+            margin: 25px 70px; 
+            .info-block {
+                margin: 25px 0;
+                padding: 50px 20px ;
+                img{
+                    width: 50px;
+                }
+                .text{
+                    h2{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        margin-top: 50px;
+        .logo-section{
+            p{
+                font-size: 1rem;
+                color: $heading-color;
+                text-transform: uppercase;
+                font-family: $main-font;
+                padding: 20px;
+                border-bottom: 1px solid $heading-color;
+                margin: 0;
+            }
+        }
+        .adress-section{
+            border: none;
+            p{
+                font-size: 1rem;
+                padding: 40px;
+                border-bottom: 1px solid $heading-color;
+                text-align: center;
+            }
+        }
+        .icon-section{
+            align-items: center;
+            padding-left: 0;
+            h2{
+                font-size: 1rem;
+                font-weight: bold;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

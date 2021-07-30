@@ -2,6 +2,22 @@ body {
   background-color: #121213;
 }
 
+.close-menu {
+  display: none;
+}
+
+.open-menu {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.display-none {
+  display: none !important;
+}
+
 .active-contact-btn {
   background-color: #121213 !important;
   background-image: url("/media/icons/cross.svg") !important;
@@ -326,6 +342,9 @@ footer .footer-menu a:hover {
 
 footer .icon-section {
   padding-left: 70px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 footer .icon-section h2 {
