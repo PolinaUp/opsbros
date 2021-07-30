@@ -167,11 +167,14 @@ header a:hover {
   font-family: "Sansation", "serif";
   font-size: 90px;
   margin: 0;
+  padding: 0 30px;
 }
 
 .cover-section .text-box p {
   font-family: "Ruda", sans-serif;
   font-size: 40px;
+  padding: 0 100px;
+  color: #D4D4D4;
 }
 
 .cover-section .chevron {

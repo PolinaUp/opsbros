@@ -141,10 +141,13 @@ header{
             font-family: $secondary-font;
             font-size: 90px;
             margin: 0;
+            padding: 0 30px;
         }
         p{
             font-family: $main-font;
             font-size: 40px;
+            padding: 0 100px;
+            color: $text-color;
         }
     }
     .chevron{

@@ -135,6 +135,8 @@ $main-shadow: 0px 0px 20px 0px #7424FF;
             }
             p{
                 font-size: 20px;
+                padding: 0 50px;
+                color: $text-color;
             }
         }
         .chevron{
@@ -165,7 +167,7 @@ $main-shadow: 0px 0px 20px 0px #7424FF;
         }
     }
     .section3 {
-        margin: 0;
+        margin: auto;
         .card-section{
             margin: 25px 70px; 
             .info-block {
