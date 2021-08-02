@@ -144,8 +144,9 @@ header{
             padding: 0 30px;
         }
         p{
+            margin-top: 30px; 
             font-family: $main-font;
-            font-size: 40px;
+            font-size: 30px;
             padding: 0 100px;
             color: $text-color;
         }
@@ -240,6 +241,104 @@ header{
         }
     }
 }
+.plain-paragraph-section{
+    margin-top: 110px;
+    .section-name {
+        padding: 30px;
+    }
+    .plain-paragraph{
+        color: $text-color;
+        font-size: 25px;
+        font-family: $main-font;
+    }
+}
+.big-icon-section{
+    margin-top: 110px;
+    h2{
+        margin-top: 35px ;
+        color: $heading-color;
+        font-size: 30px;
+        font-family: $secondary-font;
+        font-weight: bold;
+    }
+}
+.plain-paragraph-lighted-section{
+    border-radius: 50px;
+    box-shadow: $main-shadow;
+    padding: 40px 70px;
+    margin: 110px auto;
+    
+    p{
+        padding-top: 30px;
+        color: $text-color;
+        font-size: 25px;
+        font-family: $main-font;
+    }
+}
+.contact-form{
+    margin-top: 110px;
+    box-shadow: $main-shadow;
+    border-radius: 50px;
+    padding: 70px;
+    width: 75%;
+    input{
+        background-color: $main-color;
+        color: $heading-color;
+        border: none;
+        box-shadow: $main-shadow;
+        border-radius: 50px ;
+        padding: 30px;
+        margin: 20px;
+        width: 90%;
+        color: $heading-color;
+        font-family: $main-font ;
+        font-size: 25px;
+    }
+    input:focus, textarea:focus{
+        border: none;
+        outline: none;
+        box-shadow: 0px 0px 20px 0px #6226c9;
+
+    }
+
+    ::-webkit-input-placeholder { 
+        color: $heading-color;
+        font-family: $main-font ;
+        font-size: 25px;
+    }
+    textarea{
+        background-color: $main-color;
+        color: $heading-color;
+        border: none;
+        box-shadow: $main-shadow;
+        border-radius: 50px ;
+        padding: 30px;
+        margin: 20px;
+        width: 100%;
+        color: $heading-color;
+        font-family: $main-font ;
+        font-size: 25px;
+    }
+    .section-name{
+        margin-bottom: 50px;
+    }
+    button{
+        padding: 30px 50px ;
+        margin-top: 50px;
+        border-radius: 50px;
+        outline: none;
+        border: none;
+        font-size: 30px;
+        font-family: $secondary-font;
+        background-color: $secondary-color;
+        color: $heading-color;
+        box-shadow: $main-shadow;
+    }
+    button:hover{
+        background-color: $main-color;
+        transition-duration: 1.3s;
+    }
+}
 .contact-button{
     a{
         padding: 28px 55px;
@@ -257,6 +356,55 @@ header{
         transition-duration: 1.3s;
         background-color: $main-color;
     }
+}
+
+.location-block{
+    .contacts-block{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    p{
+        color: $text-color;
+        font-size: 25px;
+        font-family: $main-font;
+
+    }
+    .icon-section{
+        // padding-left: 70px;
+        align-items: flex-start;
+        margin-top: 50px;
+        h2{
+            color: $heading-color;
+            font-family: $secondary-font;
+            text-transform: uppercase;
+            padding-left: 10px;
+            font-size: 20px;
+        }
+        .icon{
+            i{
+                font-size: 30px;
+                color: $heading-color;
+                padding: 0 12px;
+
+            }
+            i:hover{
+                color: $secondary-color;
+                transition-duration: 0.8s; 
+            }
+        }
+        
+    }
+    .map-box{
+        box-shadow: $main-shadow;
+        border-radius: 50px;
+
+        .map{
+            border-radius: 50px;
+        }
+    }
+   
 }
 footer{
     margin-top: 110px;

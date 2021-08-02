@@ -171,8 +171,9 @@ header a:hover {
 }
 
 .cover-section .text-box p {
+  margin-top: 30px;
   font-family: "Ruda", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   padding: 0 100px;
   color: #D4D4D4;
 }
@@ -281,6 +282,123 @@ header a:hover {
   margin-top: auto;
 }
 
+.plain-paragraph-section {
+  margin-top: 110px;
+}
+
+.plain-paragraph-section .section-name {
+  padding: 30px;
+}
+
+.plain-paragraph-section .plain-paragraph {
+  color: #D4D4D4;
+  font-size: 25px;
+  font-family: "Ruda", sans-serif;
+}
+
+.big-icon-section {
+  margin-top: 110px;
+}
+
+.big-icon-section h2 {
+  margin-top: 35px;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: "Sansation", "serif";
+  font-weight: bold;
+}
+
+.plain-paragraph-lighted-section {
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
+          box-shadow: 0px 0px 20px 0px #7424FF;
+  padding: 40px 70px;
+  margin: 110px auto;
+}
+
+.plain-paragraph-lighted-section p {
+  padding-top: 30px;
+  color: #D4D4D4;
+  font-size: 25px;
+  font-family: "Ruda", sans-serif;
+}
+
+.contact-form {
+  margin-top: 110px;
+  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
+          box-shadow: 0px 0px 20px 0px #7424FF;
+  border-radius: 50px;
+  padding: 70px;
+  width: 75%;
+}
+
+.contact-form input {
+  background-color: #121213;
+  color: #FFFFFF;
+  border: none;
+  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
+          box-shadow: 0px 0px 20px 0px #7424FF;
+  border-radius: 50px;
+  padding: 30px;
+  margin: 20px;
+  width: 90%;
+  color: #FFFFFF;
+  font-family: "Ruda", sans-serif;
+  font-size: 25px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0px 0px 20px 0px #6226c9;
+          box-shadow: 0px 0px 20px 0px #6226c9;
+}
+
+.contact-form ::-webkit-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Ruda", sans-serif;
+  font-size: 25px;
+}
+
+.contact-form textarea {
+  background-color: #121213;
+  color: #FFFFFF;
+  border: none;
+  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
+          box-shadow: 0px 0px 20px 0px #7424FF;
+  border-radius: 50px;
+  padding: 30px;
+  margin: 20px;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: "Ruda", sans-serif;
+  font-size: 25px;
+}
+
+.contact-form .section-name {
+  margin-bottom: 50px;
+}
+
+.contact-form button {
+  padding: 30px 50px;
+  margin-top: 50px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  font-size: 30px;
+  font-family: "Sansation", "serif";
+  background-color: #7424FF;
+  color: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
+          box-shadow: 0px 0px 20px 0px #7424FF;
+}
+
+.contact-form button:hover {
+  background-color: #121213;
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
+}
+
 .contact-button a {
   padding: 28px 55px;
   font-size: 30px;
@@ -299,6 +417,64 @@ header a:hover {
   -webkit-transition-duration: 1.3s;
           transition-duration: 1.3s;
   background-color: #121213;
+}
+
+.location-block .contacts-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.location-block p {
+  color: #D4D4D4;
+  font-size: 25px;
+  font-family: "Ruda", sans-serif;
+}
+
+.location-block .icon-section {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 50px;
+}
+
+.location-block .icon-section h2 {
+  color: #FFFFFF;
+  font-family: "Sansation", "serif";
+  text-transform: uppercase;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.location-block .icon-section .icon i {
+  font-size: 30px;
+  color: #FFFFFF;
+  padding: 0 12px;
+}
+
+.location-block .icon-section .icon i:hover {
+  color: #7424FF;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.location-block .map-box {
+  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
+          box-shadow: 0px 0px 20px 0px #7424FF;
+  border-radius: 50px;
+}
+
+.location-block .map-box .map {
+  border-radius: 50px;
 }
 
 footer {
