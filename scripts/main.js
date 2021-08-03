@@ -44,3 +44,7 @@ $('.menu-item').on('click', function () {
     $('.mobile-menu').addClass('display-none');
     $('#check').toggleClass('closed').toggleClass('opened');
 });
+
+$(document).on('ready', function () {
+
+})
