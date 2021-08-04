@@ -24,7 +24,7 @@ body{
 }
 .active-contact-btn{
     background-color: $main-color !important;
-    background-image: url('/media/icons/cross.svg') !important;
+    background-image: url('../media/icons/cross.svg') !important;
     transform: rotate(360deg);
     transition-duration: 1.3s;
 }
@@ -42,7 +42,7 @@ body{
         width: 80px;
         background-color: $secondary-color;
         border-radius: 50%;
-        background-image: url('/media/icons/feather-alt-solid.svg');
+        background-image: url('../media/icons/feather-alt-solid.svg');
         background-size: 35px 35px;
         // background-size: auto;
         box-shadow: none;
@@ -69,7 +69,7 @@ body{
         width: 80px;
         background-color: $secondary-color;
         border-radius: 50%;
-        background-image: url('/media/icons/calendar.svg');
+        background-image: url('../media/icons/calendar.svg');
         background-size: 35px 35px;
         // background-size: auto;
         box-shadow: none;
@@ -127,7 +127,7 @@ header{
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url(/media/cover1.png);
+    background-image: url('../media/cover1.png');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,7 +152,7 @@ header{
         }
     }
     .chevron{
-        background-image: url('/media/icons/chevron.png');
+        background-image: url('../media/icons/chevron.png');
         background-repeat: no-repeat;
         background-size: contain;
         position: absolute;
