@@ -127,7 +127,7 @@ header{
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url('../media/cover1.png');
+    background-image: url('../media/cover1.svg');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,7 +152,7 @@ header{
         }
     }
     .chevron{
-        background-image: url('../media/icons/chevron.png');
+        background-image: url('../media/icons/chevron.svg');
         background-repeat: no-repeat;
         background-size: contain;
         position: absolute;
