@@ -1,9 +1,15 @@
 @media screen and (min-width: 320px) and (max-width: 1200px) {
+  .contact-btn-container {
+    z-index: 51;
+  }
   .contact-btn-container .contact-btn-content {
     height: 50px;
     width: 50px;
     background-size: 25px 25px;
     background-position: 13px 13px;
+  }
+  .calendly-badge-widget {
+    z-index: 11;
   }
   .calendly-badge-widget .calendly-badge-content {
     height: 50px;
@@ -27,7 +33,7 @@
     display: -ms-flexbox;
     display: flex;
     position: fixed;
-    top: 108px;
+    top: 68px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -48,6 +54,9 @@
     font-size: 20px;
     padding: 12px 50px;
   }
+  header {
+    height: 70px;
+  }
   header .logo-box {
     margin-left: 0 !important;
     padding: 0;
@@ -63,14 +72,14 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 40px;
+    width: 30px;
     cursor: pointer;
   }
   .open-menu-mobile label span {
     background: #FFFFFF;
     border-radius: 10px;
-    height: 3px;
-    margin: 5px 0;
+    height: 2px;
+    margin: 3px 0;
     -webkit-transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
     transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
   }
@@ -86,21 +95,22 @@
   .open-menu-mobile .opened ~ span:nth-of-type(1) {
     -webkit-transform-origin: bottom;
             transform-origin: bottom;
-    -webkit-transform: rotatez(45deg) translate(5px, 0px);
-            transform: rotatez(45deg) translate(5px, 0px);
+    -webkit-transform: rotatez(45deg) translate(3px, 0px);
+            transform: rotatez(45deg) translate(3px, 0px);
   }
   .open-menu-mobile .opened ~ span:nth-of-type(2) {
     -webkit-transform-origin: top;
             transform-origin: top;
     -webkit-transform: rotatez(-45deg);
             transform: rotatez(-45deg);
+    width: 99%;
   }
   .open-menu-mobile .opened ~ span:nth-of-type(3) {
     -webkit-transform-origin: bottom;
             transform-origin: bottom;
     width: 50%;
-    -webkit-transform: translate(19px, -7px) rotatez(45deg);
-            transform: translate(19px, -7px) rotatez(45deg);
+    -webkit-transform: translate(13px, -3px) rotatez(45deg);
+            transform: translate(13px, -3px) rotatez(45deg);
   }
   .section-name h3 {
     font-size: 1rem;

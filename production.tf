@@ -9,7 +9,6 @@ resource "aws_s3_bucket" "opsbros_s3" {
   bucket = "s3-opsbros-text.hashicorp.com"
   policy = file("policy.json")
 
-
   website {
     index_document = "index.html"
   }

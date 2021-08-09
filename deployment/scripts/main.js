@@ -6,6 +6,7 @@ $('.contact-btn-content').on('click', function () {
             'transform': 'rotate(-360deg)',
             'bottom': '30px',
             'transition-duration': '1.3s',
+
         });
     
         if ($(this).hasClass('active-contact-btn')) {
@@ -14,7 +15,6 @@ $('.contact-btn-content').on('click', function () {
                 'transform': 'rotate(360deg)',
                 'bottom': '100px',
                 'transition-duration': '1.3s',
-                'z-index': '3452535453634',
             });
         }
     } else {
@@ -44,7 +44,3 @@ $('.menu-item').on('click', function () {
     $('.mobile-menu').addClass('display-none');
     $('#check').toggleClass('closed').toggleClass('opened');
 });
-
-$(document).on('ready', function () {
-
-})
