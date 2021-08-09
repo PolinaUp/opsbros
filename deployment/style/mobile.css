@@ -124,6 +124,7 @@
   }
   .cover-section .text-box h1 {
     font-size: 40px;
+    padding: 0;
   }
   .cover-section .text-box p {
     font-size: 20px;
@@ -141,7 +142,7 @@
     margin-top: 50px;
   }
   .section2 .services-container .svc {
-    padding: 0 70px;
+    padding: 0 5%;
     margin-bottom: 50px;
   }
   .section2 .services-container .svc .svc-num {
@@ -158,7 +159,7 @@
     margin: auto;
   }
   .section3 .card-section {
-    margin: 25px 70px;
+    margin: 25px 5%;
   }
   .section3 .card-section .info-block {
     margin: 25px 0;
@@ -174,7 +175,7 @@
     font-size: 1rem;
   }
   .plain-paragraph-section {
-    padding: 0 70px;
+    padding: 0 10%;
     margin-top: 50px;
   }
   .plain-paragraph-section .section-name {
@@ -199,11 +200,13 @@
     font-size: 20px;
     width: 50%;
   }
-  .plain-paragraph-lighted-section {
-    margin: 50px auto;
+  .plain-paragraph-lighted-section-container {
+    padding: 50px 10%;
+  }
+  .plain-paragraph-lighted-section-container .plain-paragraph-lighted-section {
     padding: 30px 20px;
   }
-  .plain-paragraph-lighted-section p {
+  .plain-paragraph-lighted-section-container .plain-paragraph-lighted-section p {
     font-size: 1rem;
   }
   .contact-form {
