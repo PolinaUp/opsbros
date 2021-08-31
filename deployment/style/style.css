@@ -1,5 +1,5 @@
 body {
-  background-color: #121213;
+  background-color: #051923;
 }
 
 .close-menu {
@@ -19,7 +19,7 @@ body {
 }
 
 .active-contact-btn {
-  background-color: #121213 !important;
+  background-color: #051923 !important;
   background-image: url("../media/icons/cross.svg") !important;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
@@ -29,10 +29,10 @@ body {
 
 .contact-btn-container {
   position: fixed;
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
   border-radius: 50px;
-  background-color: #121213;
+  background-color: #051923;
   bottom: 30px;
   right: 30px;
   z-index: 20;
@@ -42,7 +42,7 @@ body {
   content: '';
   height: 80px;
   width: 80px;
-  background-color: #7424FF;
+  background-color: #0582CA;
   border-radius: 50%;
   background-image: url("../media/icons/feather-alt-solid.svg");
   background-size: 35px 35px;
@@ -56,15 +56,15 @@ body {
 .contact-btn-container .contact-btn-content:hover {
   -webkit-transition-duration: 1.3s;
           transition-duration: 1.3s;
-  background-color: #121213;
+  background-color: #051923;
 }
 
 .calendly-badge-widget {
   opacity: 0;
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
   border-radius: 50px;
-  background-color: #121213;
+  background-color: #051923;
   bottom: 30px;
   right: 30px;
   z-index: 10;
@@ -74,7 +74,7 @@ body {
   content: '';
   height: 80px;
   width: 80px;
-  background-color: #7424FF;
+  background-color: #0582CA;
   border-radius: 50%;
   background-image: url("../media/icons/calendar.svg");
   background-size: 35px 35px;
@@ -88,11 +88,11 @@ body {
 .calendly-badge-widget .calendly-badge-content:hover {
   -webkit-transition-duration: 1.3s;
           transition-duration: 1.3s;
-  background-color: #121213;
+  background-color: #051923;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #121213;
+  background-color: #051923;
 }
 
 ::-webkit-scrollbar {
@@ -100,18 +100,27 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #7424FF;
+  background-color: #0582CA;
 }
 
 header {
-  background-color: #121213;
+  background-color: #051923;
   height: 110px;
   position: fixed;
   z-index: 10;
   left: 0;
   right: 0;
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul {
+  margin-bottom: 0 !important;
+  padding-left: 0;
 }
 
 header a {
@@ -124,9 +133,49 @@ header a {
 }
 
 header a:hover {
-  color: #7424FF;
+  color: #0582CA;
   -webkit-transition-duration: 0.8s;
           transition-duration: 0.8s;
+}
+
+header .dropdown {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  left: 0;
+  display: none;
+}
+
+header ul li:hover > ul,
+header ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+header .company-header-content {
+  display: none;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  background-color: #051923;
+  color: #FFFFFF;
+}
+
+header .company-header-content p {
+  color: #D4D4D4;
+}
+
+header .company-header-content .left-side {
+  padding: 100px;
+  display: block;
+}
+
+header .company-header-content a {
+  display: block !important;
 }
 
 .cover-section {
@@ -199,7 +248,7 @@ header a:hover {
 }
 
 .section-name h3 {
-  color: #7424FF;
+  color: #0582CA;
   font-size: 30px;
   font-family: "Ruda", sans-serif;
 }
@@ -224,7 +273,7 @@ header a:hover {
 
 .section2 .services-container .svc .svc-num {
   font-family: "Sansation", "serif";
-  color: #484848;
+  color: #006494;
   font-size: 100px;
 }
 
@@ -244,8 +293,17 @@ header a:hover {
   line-height: 120%;
 }
 
+.section2 .services-container .svc .svc-text li {
+  list-style: square;
+  font-family: "Sansation", "serif";
+  font-size: 25px;
+  color: #D4D4D4;
+  line-height: 150%;
+  margin-top: 15px;
+}
+
 .section3 {
-  margin-top: 20px;
+  margin-top: 110px;
   margin-bottom: 110px;
 }
 
@@ -254,8 +312,8 @@ header a:hover {
 }
 
 .section3 .card-section .info-block {
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
   border-radius: 50px;
   padding: 70px 20px;
 }
@@ -310,8 +368,8 @@ header a:hover {
 
 .plain-paragraph-lighted-section {
   border-radius: 50px;
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
   padding: 40px 70px;
   margin: 110px auto;
 }
@@ -325,19 +383,19 @@ header a:hover {
 
 .contact-form {
   margin-top: 110px;
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
   border-radius: 50px;
   padding: 70px;
   width: 75%;
 }
 
 .contact-form input {
-  background-color: #121213;
+  background-color: #051923;
   color: #FFFFFF;
   border: none;
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
   border-radius: 50px;
   padding: 30px;
   margin: 20px;
@@ -361,11 +419,11 @@ header a:hover {
 }
 
 .contact-form textarea {
-  background-color: #121213;
+  background-color: #051923;
   color: #FFFFFF;
   border: none;
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
   border-radius: 50px;
   padding: 30px;
   margin: 20px;
@@ -387,14 +445,14 @@ header a:hover {
   border: none;
   font-size: 30px;
   font-family: "Sansation", "serif";
-  background-color: #7424FF;
+  background-color: #0582CA;
   color: #FFFFFF;
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
 }
 
 .contact-form button:hover {
-  background-color: #121213;
+  background-color: #051923;
   -webkit-transition-duration: 1.3s;
           transition-duration: 1.3s;
 }
@@ -403,9 +461,9 @@ header a:hover {
   padding: 28px 55px;
   font-size: 30px;
   font-family: "Sansation", "serif";
-  background-color: #7424FF;
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  background-color: #0582CA;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
   border-radius: 50px;
   color: #FFFFFF;
   text-decoration: none;
@@ -416,7 +474,7 @@ header a:hover {
 .contact-button a:hover {
   -webkit-transition-duration: 1.3s;
           transition-duration: 1.3s;
-  background-color: #121213;
+  background-color: #051923;
 }
 
 .location-block .contacts-block {
@@ -462,14 +520,14 @@ header a:hover {
 }
 
 .location-block .icon-section .icon i:hover {
-  color: #7424FF;
+  color: #0582CA;
   -webkit-transition-duration: 0.8s;
           transition-duration: 0.8s;
 }
 
 .location-block .map-box {
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
   border-radius: 50px;
 }
 
@@ -477,11 +535,27 @@ header a:hover {
   border-radius: 50px;
 }
 
+.tech-section {
+  margin-top: 110px;
+}
+
+.tech-section .tech-name {
+  padding: 50px;
+}
+
+.tech-section .tech-name h2 {
+  font-size: 1.4rem;
+}
+
+.tech-section img {
+  padding: 25px 0;
+}
+
 footer {
   margin-top: 110px;
   padding: 60px 0;
-  -webkit-box-shadow: 0px 0px 20px 0px #7424FF;
-          box-shadow: 0px 0px 20px 0px #7424FF;
+  -webkit-box-shadow: 0px 0px 10px 0px #0582CA;
+          box-shadow: 0px 0px 10px 0px #0582CA;
 }
 
 footer .logo-section p {
@@ -514,7 +588,7 @@ footer .footer-menu a {
 }
 
 footer .footer-menu a:hover {
-  color: #7424FF;
+  color: #0582CA;
   -webkit-transition-duration: 0.8s;
           transition-duration: 0.8s;
 }
@@ -541,7 +615,7 @@ footer .icon-section .icon i {
 }
 
 footer .icon-section .icon i:hover {
-  color: #7424FF;
+  color: #0582CA;
   -webkit-transition-duration: 0.8s;
           transition-duration: 0.8s;
 }

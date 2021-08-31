@@ -9,22 +9,22 @@
     <!-- Calendly not edit !!! -->
 
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    
+
     <!-- Calendly end -->
 
     <!-- bootstrap -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    
+
     <!-- bootstrap end -->
 
     <!-- Animation AnimXYZ, AOS-->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core@0.4.0/dist/animxyz.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
+
     <!-- Animation end-->
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +38,7 @@
             src: url(fonts/Sansation_Regular.ttf) format("truetype");
         }
     </style>
-    
+
     <!-- Fonts end  -->
 
     <!-- Own styles -->
@@ -54,8 +54,8 @@
 
     <!-- Calendly inline widget end -->
 
-  
-    
+
+
     <!-- Header  -->
 
     <header class="container-fluid d-flex align-items-center">
@@ -65,16 +65,50 @@
                     <a href="index.html" class="logo-box">
                         <img class="logo" src="media/logo.svg" alt="" width="150px">
                     </a>
-                </div> 
+                </div>
                 <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="1500" data-aos-offset="0"class="col-6 col-xl-9 d-flex justify-content-end align-items-center">
                    <div class="mobile-display-none">
-                        <a href="services.html">Services</a>
-                        <a href="technologies.html">technologies</a>
-                        <a href="portfolio.html">portfolio</a>
-                        <a href="company.html">company</a>
-                        <a href="contacts.html">contacts</a>
+                            <ul class="d-flex flex-row">
+                                <li>
+                                    <a href="services.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="technologies.html">technologies</a>
+                                </li>
+                                <li>
+                                    <a href="portfolio.html">portfolio</a>
+                                </li>
+                                <li>
+                                    <a id="company-header-btn" class="company-header-btn" href="company.html">company</a>
+                                </li>
+                                <!-- <li>
+                                    <a class="open-dropdown" href="#">Two</a>
+                                    <ul class="dropdown">
+                                        <li class="company-header-content">
+                                            <div class="row">
+                                            <div class="col-6 d-flex align-items-center justify-content-center left-side">
+                                                    <div class="row">
+                                                        <h3>About us</h3>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestias temporibus nesciunt sequi beatae voluptatem illum, ratione soluta ipsam nobis dolorum voluptate velit corporis qui, sit reprehenderit, ut vitae voluptatibus!</p>
+                                                    </div>
+                                            </div>
+                                            <div class="col-6 d-flex flex-column align-items-center right-side">
+                                                    <a href="">test</a>
+                                                    <a href="">test</a>
+                                                    <a href="">test</a>
+                                                    <a href="">test</a>
+                                                    <a href="">test</a>
+                                            </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li> -->
+                                <li>
+                                    <a href="contacts.html">contacts</a>
+                                </li>
+                            </ul>
                    </div>
-        
+
                    <div class="open-menu-mobile">
                         <label>
                             <div class="closed" id="check"> </div>
@@ -100,18 +134,21 @@
     <section class="cover-section">
         <div class="text-box">
             <h1 class="text-center">OPSBROS</h1>
-            <p class="text-center">Something great</p>
+            <p class="text-center">Streamline your software delivery and deployment with a reliable DevOps engineering partner by your side. We will help you reinvent your development processes with an efficient production infrastructure and productive collaboration.
+            </p>
         </div>
         <div class="chevron">
 
         </div>
     </section>
 
-
     <section class="section2 container">
         <div class="section-name d-flex justify-content-center flex-column align-items-center">
             <h3>company</h3>
-            <h2>Service provided</h2>
+
+            <h2>
+                EXPERTISE WE OFFER
+            </h2>
         </div>
         <div class="services-container row">
             <div class="svc svc-1 col-md-6 col-12">
@@ -121,11 +158,19 @@
                     </div>
                     <div class="col-8 svc-text">
                         <h2>
-                            aPPLICATION DEVELOPMENT
+                            Infrastructure as a Code
                         </h2>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur dolor numquam ipsam sint aliquid dicta maxime voluptatibus asperiores. In, amet.
-                        </p>
+                        <ul>
+                            <li>
+                                Infrastructure is more clear and documented
+                            </li>
+                            <li>
+                                Infrastructure knowledge maintainability
+                            </li>
+                            <li>
+                                Infrastructure unification between environments
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -138,11 +183,16 @@
                     </div>
                     <div class="col-8 svc-text">
                         <h2>
-                            pRODUCT DESIGN
+                            Configuration Management
                         </h2>
-                        <p>
-                            Lorem ipsum dolor, sit ameime voluptatibus asperiores. In, amet.
-                        </p>
+                        <ul>
+                            <li>
+                                Reduced Mean Time to Recover (MTTR) from failure
+                            </li>
+                            <li>
+                                Application configuration is unified between environments
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -153,12 +203,234 @@
                     </div>
                     <div class="col-8 svc-text">
                         <h2>
-                            sYSTEM aSSESSMENT
+                            Delivery Pipeline and Continuous Integration (CI/CD)
                         </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis
-                        </p>
+                        <ul>
+                            <li>
+                                Reduced lead time: time between starting on a work item until it is deployed
+                            </li>
+                            <li>
+                                Improved quality of deliverable services or applications
+                            </li>
+                        </ul>
                     </div>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
+            <div class="svc svc-2 col-md-6 col-12">
+                <div class="row">
+                    <div class="col-4 svc-num d-flex justify-content-center align-items-center">
+                        <p>04</p>
+                    </div>
+                    <div class="col-8 svc-text">
+                        <h2>
+                            Infrastructure Automation and Orchestration
+                        </h2>
+                        <ul>
+                            <li>
+                                Improved quality of infrastructure operations routines
+                            </li>
+                            <li>
+                                Automating repetitive tasks
+                            </li>
+                            <li>
+                                Unified approach to infrastructure management
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="svc svc-2 col-md-6 col-12">
+                <div class="row">
+                    <div class="col-4 svc-num d-flex justify-content-center align-items-center">
+                        <p>05</p>
+                    </div>
+                    <div class="col-8 svc-text">
+                        <h2>
+                            Monitoring, Logging and Alerting
+                        </h2>
+                        <ul>
+                            <li>
+                                Improved availability and performance of services or applications
+                            </li>
+                            <li>
+                                Reduced Mean Time to Detect (MTTD) and Reduced Mean Time to Recover (MTTR) failures
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
+            <div class="svc svc-2 col-md-6 col-12">
+                <div class="row">
+                    <div class="col-4 svc-num d-flex justify-content-center align-items-center">
+                        <p>06</p>
+                    </div>
+                    <div class="col-8 svc-text">
+                        <h2>
+                            Cloud adoption
+                        </h2>
+                        <ul>
+                            <li>
+                                Cloud platform development
+                            </li>
+                            <li>
+                                Cloud consultancy and infrastructure design
+                            </li>
+                            <li>
+                                Cloud cost optimization
+                            </li>
+                            <li>
+                                Cloud migration
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="svc svc-2 col-md-6 col-12">
+                <div class="row">
+                    <div class="col-4 svc-num d-flex justify-content-center align-items-center">
+                        <p>07</p>
+                    </div>
+                    <div class="col-8 svc-text">
+                        <h2>
+                            Infrastructure stability
+                        </h2>
+                        <ul>
+                            <li>
+                                DDoS detection/prevention (multi-layered and cloud-based)
+                            </li>
+                            <li>
+                                System scalability and withstanding high-load
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
+            <div class="svc svc-2 col-md-6 col-12">
+                <div class="row">
+                    <div class="col-4 svc-num d-flex justify-content-center align-items-center">
+                        <p>08</p>
+                    </div>
+                    <div class="col-8 svc-text">
+                        <h2>
+                            Secure infrastructure
+                        </h2>
+                        <ul>
+                            <li>
+                                Firewall-as-a-service
+                            </li>
+                            <li>
+                                Web attack detection/prevention
+                            </li>
+                            <li>
+                                Intrusion detection/prevention
+                            </li>
+                            <li>
+                                VPN Hardware firewall tuning
+                            </li>
+                            <li>
+                                Security testing
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container tech-section">
+        <div class="section-name d-flex justify-content-center flex-column align-items-center">
+            <h3>our</h3>
+            <h2>TECHNOLOGIES WE WORK WITH</h2>
+        </div>
+        <div class="row">
+           
+            <div class="section-name tech-name">
+                <h2 class="text-center"> Infrastructure as a Code</h2>
+            </div>
+           
+            <div class="d-flex flex-row flex-wrap align-items-center justify-content-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 col-6 big-icon d-flex justify-content-start flex-column align-items-center">
+                    <img src="media/technologies/tech1.png" alt=""  width="50%">
+                    <!-- <h2 class="text-center icon-name">Angular development</h2> -->
+                </div>
+                <div class="col-md-2 col-6 big-icon d-flex justify-content-start flex-column align-items-center">
+                    <img src="media/technologies/tech2.png" alt="" width="90%">
+                    <!-- <h2 class="text-center icon-name">React.js development</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-center flex-column align-items-center">
+                    <img src="media/technologies/tech3.png" alt="" width="45%">
+                    <!-- <h2 class="text-center icon-name">Application maintenance and support</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-center flex-column align-items-center">
+                    <img src="media/technologies/tech4.png" alt="" width="40%">
+                    <!-- <h2 class="text-center icon-name">Application maintenance and support</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-center flex-column align-items-center">
+                    <img src="media/technologies/tech5.png" alt="" width="40%">
+                    <!-- <h2 class="text-center icon-name">Application maintenance and support</h2> -->
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="section-name tech-name">
+                <h2 class="text-center">CI/CD</h2>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-row flex-wrap">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-start flex-column align-items-center">
+                    <img src="media/technologies/tech6.png" alt=""  width="100%">
+                    <!-- <h2 class="text-center icon-name">Angular development</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-start flex-column align-items-center">
+                    <img src="media/technologies/tech7.png" alt="" width="70%">
+                    <!-- <h2 class="text-center icon-name">React.js development</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-center flex-column align-items-center">
+                    <img src="media/technologies/tech8.png" alt="" width="70%">
+                    <!-- <h2 class="text-center icon-name">Application maintenance and support</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-center flex-column align-items-center">
+                    <img src="media/technologies/tech16.png" alt="" width="45%">
+                    <!-- <h2 class="text-center icon-name">Application maintenance and support</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-center flex-column align-items-center">
+                    <img src="media/technologies/tech10.svg" alt="" width="100%">
+                    <!-- <h2 class="text-center icon-name">Application maintenance and support</h2> -->
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="section-name tech-name">
+                <h2 class="text-center">Automation and Orchestration</h2>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-row flex-wrap">
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-start flex-column align-items-center">
+                    <img src="media/technologies/tech11.png" alt=""  width="60%">
+                    <!-- <h2 class="text-center icon-name">Angular development</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-start flex-column align-items-center">
+                    <img src="media/technologies/tech12.png" alt="" width="80%">
+                    <!-- <h2 class="text-center icon-name">React.js development</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-center flex-column align-items-center">
+                    <img src="media/technologies/tech1.png" alt="" width="50%">
+                    <!-- <h2 class="text-center icon-name">Application maintenance and support</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-center flex-column align-items-center">
+                    <img src="media/technologies/tech14.png" alt="" width="40%">
+                    <!-- <h2 class="text-center icon-name">Application maintenance and support</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-center flex-column align-items-center">
+                    <img src="media/technologies/tech15.png" alt="" width="80%">
+                    <!-- <h2 class="text-center icon-name">Application maintenance and support</h2> -->
+                </div>
+                <div class="col-md-2 col-4 big-icon d-flex justify-content-center flex-column align-items-center">
+                    <img src="media/technologies/tech13.png" alt="" width="50%">
+                    <!-- <h2 class="text-center icon-name">Application maintenance and support</h2> -->
                 </div>
             </div>
         </div>
@@ -177,7 +449,7 @@
                     </h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetu rconsec teturco nsectetconsectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis elit ut aliquam, purus sit amet luctus venenatis
-                    </p> 
+                    </p>
                 </div>
             </div>
             <div class="col-md-2"></div>
@@ -191,7 +463,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis
                     </p>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -251,7 +523,7 @@
       <!-- Contact btn  -->
     <div class="contact-btn-container">
         <div class="contact-btn-content">
-            
+
         </div>
     </div>
 <!-- contact btn end  -->
@@ -275,13 +547,13 @@
         window.onload = function() {
             Calendly.initBadgeWidget(
                 {
-                    url: 'https://calendly.com/opsbros/30min', 
-                    text: '', 
-                    // color: '#121213', 
-                    textColor: '#7424ff', 
-                    branding: false 
+                    url: 'https://calendly.com/opsbros/30min',
+                    text: '',
+                    // color: '#121213',
+                    textColor: '#7424ff',
+                    branding: false
                 }
-            ); 
+            );
         }
     </script>
 

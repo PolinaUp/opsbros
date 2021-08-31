@@ -38,7 +38,7 @@
     left: 0;
     right: 0;
     height: 100vh;
-    background-color: #121213;
+    background-color: #051923;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -153,6 +153,9 @@
     margin-bottom: 15px;
   }
   .section2 .services-container .svc .svc-text p {
+    font-size: 1rem;
+  }
+  .section2 .services-container .svc .svc-text li {
     font-size: 1rem;
   }
   .section3 {
