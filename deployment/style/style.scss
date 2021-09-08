@@ -127,27 +127,24 @@ header{
         transition-duration: 0.8s;
     }
 
-    .dropdown {
-        visibility: hidden;
-        opacity: 0;
-        position: absolute;
-        transition: all 0.5s ease;
-        left: 0;
-        display: none;
-    }
-    ul li:hover > ul,
-    ul li ul:hover {
-        visibility: visible;
-        opacity: 1;
-        display: block;
-    }
-    .company-header-content{
+    // .dropdown {
+    //     visibility: hidden;
+    //     opacity: 0;
+    //     position: absolute;
+    //     transition: all 0.5s ease;
+    //     left: 0;
+    //     display: none;
+    // }
+   
+    .dropdown{
         display: none;
         position: absolute;
-        top: 65px;
+        top: 75px;
         left: 0;
         right: 0;
         // width: 100%;
+        opacity: 0;
+
         background-color: $main-color;
         color: $heading-color;
         p{
@@ -163,6 +160,18 @@ header{
     }
 }
 
+// li ul:hover {
+//     visibility: visible;
+//     opacity: 1;
+//     display: block;
+// }
+.menu li:hover > .dropdown {
+    display: block;
+    opacity: 1;
+    transition-duration: 1.3s;
+    visibility: visible;
+    transform: scaleY(1);
+}
 //  li ul li {
 //     clear: both;
 //     width: 100%;

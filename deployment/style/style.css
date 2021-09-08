@@ -139,43 +139,37 @@ header a:hover {
 }
 
 header .dropdown {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  left: 0;
-  display: none;
-}
-
-header ul li:hover > ul,
-header ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
-header .company-header-content {
   display: none;
   position: absolute;
-  top: 65px;
+  top: 75px;
   left: 0;
   right: 0;
+  opacity: 0;
   background-color: #051923;
   color: #FFFFFF;
 }
 
-header .company-header-content p {
+header .dropdown p {
   color: #D4D4D4;
 }
 
-header .company-header-content .left-side {
+header .dropdown .left-side {
   padding: 100px;
   display: block;
 }
 
-header .company-header-content a {
+header .dropdown a {
   display: block !important;
+}
+
+.menu li:hover > .dropdown {
+  display: block;
+  opacity: 1;
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
+  visibility: visible;
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
 }
 
 .cover-section {
